@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  height: 15rem;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: ease 0.2s;
+  -webkit-transition: ease 0.2s;
+  -moz-transition: ease 0.2s;
+  -ms-transition: ease 0.2s;
+  -o-transition: ease 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+.CSS {
+  background-color: #0099e5;
+  color: #fff;
+}
+
+.JAVASCRIPT {
+  background-color: #f7df1e;
+  color: #000;
+}
+
+.HTML {
+  background-color: #e34f26;
+  color: #fff;
+}
+
+.close {
+  cursor: pointer;
+}
